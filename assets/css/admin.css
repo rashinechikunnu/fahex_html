@@ -1,0 +1,60 @@
+ 
+      body {
+        background-color: #f8f9fa;
+      }
+
+      /* Sidebar for large screens */
+      .sidebar {
+        height: 100vh;
+        background-color: #212529;
+        color: #fff;
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 250px;
+        overflow-y: auto;
+        z-index: 1040;
+      }
+
+      .sidebar a {
+        color: #adb5bd;
+        text-decoration: none;
+        display: block;
+        padding: 12px 20px;
+      }
+
+      .sidebar a:hover,
+      .sidebar a.active {
+        background-color: #050505ff;
+        color: #fff;
+      }
+
+      /* Main content margin for large screens */
+      .main-content {
+        padding: 20px;
+      }
+
+      @media (min-width: 992px) {
+        .main-content {
+          margin-left: 250px;
+        }
+      }
+
+      .card {
+        border: none;
+        border-radius: 10px;
+        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+      }
+
+      .card-img-top {
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
+        height: 200px;
+        object-fit: cover;
+      }
+
+      .card-body {
+        display: flex;
+        flex-direction: column;
+      }
+    

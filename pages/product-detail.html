@@ -1,0 +1,461 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Product Details - Fahex</title>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Josefin+Sans"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="../assets/css/open-iconic-bootstrap.min.css" />
+    <link rel="stylesheet" href="../assets/css/animate.css" />
+    <link rel="stylesheet" href="../assets/css/owl.carousel.min.css" />
+    <link rel="stylesheet" href="../assets/css/owl.theme.default.min.css" />
+    <link rel="stylesheet" href="../assets/css/magnific-popup.css" />
+    <link rel="stylesheet" href="../assets/css/aos.css" />
+    <link rel="stylesheet" href="../assets/css/ionicons.min.css" />
+    <link rel="stylesheet" href="../assets/css/bootstrap-datepicker.css" />
+    <link rel="stylesheet" href="../assets/css/jquery.timepicker.css" />
+    <link rel="stylesheet" href="../assets/css/flaticon.css" />
+    <link rel="stylesheet" href="../assets/css/icomoon.css" />
+    <link rel="stylesheet" href="../assets/css/style.css" />
+    <link rel="stylesheet" href="../assets/css/product.css" />
+  </head>
+  <body>
+    <nav
+      class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light"
+      id="ftco-navbar"
+    >
+      <div class="container">
+        <a class="navbar-brand" href="../index.html">
+          <span class=""></span>Fahex<br />
+          <small>Nature Glow</small>
+        </a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#ftco-nav"
+          aria-controls="ftco-nav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="oi oi-menu"></span> Menu
+        </button>
+        <div class="collapse navbar-collapse" id="ftco-nav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a href="../index.html" class="nav-link">Home</a>
+            </li>
+            <li class="nav-item active">
+              <a href="product.html" class="nav-link">Product</a>
+            </li>
+            <li class="nav-item">
+              <a href="about.html" class="nav-link">About</a>
+            </li>
+            <li class="nav-item">
+              <a href="contact.html" class="nav-link">Contact</a>
+            </li>
+            <li class="nav-item">
+              <a
+                href="https://wa.me/9496650320"
+                class="nav-link"
+                target="_blank"
+              >
+                <i class="fab fa-whatsapp" style="font-size: 25px"></i>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <!-- END nav -->
+
+    <div class="container py-5">
+      <!-- Breadcrumb -->
+      <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="../index.html">Home</a></li>
+          <li class="breadcrumb-item"><a href="product.html">Products</a></li>
+          <li class="breadcrumb-item text-white">Product Details</li>
+        </ol>
+      </nav>
+
+      <div class="row g-4">
+        <!-- LEFT: IMAGE -->
+        <div class="col-lg-6 col-md-12">
+          <div class="product-gallery mb-4 mb-lg-0">
+            <img
+              id="mainImg"
+              src="../assets/images/WhatsApp Image 2025-10-15 at 7.02.43 PM (2).jpeg.webp"
+              class="img-fluid shadow-sm rounded-3"
+              alt="Kasthuri Manjal Powder"
+            />
+            <!-- Thumbnail images -->
+            <div class="row mt-3 g-2" id="thumbnailContainer">
+              <div class="col-3">
+                <img
+                  src="../assets/images/WhatsApp Image 2025-10-15 at 7.02.43 PM (2).jpeg"
+                  class="img-fluid rounded-2 thumb-img active"
+                  onclick="changeImg(this)"
+                  alt="Thumb 1"
+                  style="cursor: pointer; border: 2px solid #f5d67b"
+                />
+              </div>
+              <div class="col-3">
+                <img
+                  src="../assets/images/km.webp"
+                  class="img-fluid rounded-2 thumb-img"
+                  onclick="changeImg(this)"
+                  alt="Thumb 2"
+                  style="cursor: pointer"
+                />
+              </div>
+              <div class="col-3">
+                <img
+                  src="../assets/images/kasth.jpg"
+                  class="img-fluid rounded-2 thumb-img"
+                  onclick="changeImg(this)"
+                  alt="Thumb 3"
+                  style="cursor: pointer"
+                />
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- RIGHT: PRODUCT INFO -->
+        <div class="col-lg-6 col-md-12 d-flex flex-column">
+          <h2 class="fw-bold mb-3" id="productTitle">Kasthuri Manjal Powder</h2>
+
+          <!-- Weight -->
+          <span
+            class="badge mb-2 d-inline-flex align-items-center"
+            style="
+              background: #f5d67b;
+              color: black;
+              font-size: 1rem;
+              padding: 8px 14px;
+            "
+            id="productWeight"
+          >
+            Weight: 50 g
+          </span>
+
+          <!-- Price -->
+          <div class="d-flex align-items-center gap-3 mb-3 mt-2">
+            <span class="price-new" id="productPrice">₹ 120</span>
+          </div>
+
+          <h5 class="fw-bold mt-4 text-white">Description</h5>
+          <p class="text-white" id="productDesc">
+            Fahex Kasthuri Manjal Powder is carefully sourced from pure Wild
+            Turmeric (Curcuma aromatica) and ground using traditional stone
+            methods to retain its full natural potency. Unlike common turmeric,
+            Kasthuri Manjal has a delightful fragrance and is completely safe
+            for facial use.
+          </p>
+          <p class="text-white">
+            <strong>Benefits:</strong>
+          </p>
+          <ul class="text-white">
+            <li>Reduces acne, pimples, and skin blemishes</li>
+            <li>Lightens tan, dark spots, and pigmentation</li>
+            <li>Improves natural skin glow and radiance</li>
+            <li>Anti-bacterial and anti-inflammatory properties</li>
+            <li>Safe for all skin types including sensitive skin</li>
+            <li>No chemicals or artificial additives</li>
+          </ul>
+          <p class="text-white">
+            <strong>How to Use:</strong> Mix a small amount with water, rose
+            water, or milk to form a paste. Apply on face and neck, leave for
+            10-15 minutes, then rinse with water.
+          </p>
+
+          <!-- WhatsApp Button -->
+          <div class="mt-4">
+            <button
+              class="btn btn-lg bg-success text-white w-100"
+              style="border-radius: 17px"
+              onclick="window.open('https://wa.me/919496650320', '_blank')"
+            >
+              <i class="fab fa-whatsapp me-2"></i> Order via WhatsApp
+            </button>
+          </div>
+
+          <!-- Back to Products -->
+          <div class="mt-3">
+            <a
+              href="product.html"
+              class="btn btn-outline-light w-100"
+              style="border-radius: 17px"
+            >
+              ← Back to Products
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer class="ftco-footer ftco-section img">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="row mb-5 justify-content-between">
+          <div class="col-lg-3 col-md-6 mb-5 mb-md-5">
+            <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">About Kasthuri Manjal</h2>
+              <p>
+                Kasthuri Manjal, also known as Wild Turmeric, is a natural
+                herbal ingredient used in beauty and skincare for centuries.
+              </p>
+              <ul
+                class="ftco-footer-social list-unstyled float-md-left float-lft mt-5"
+              >
+                <li class="ftco-animate">
+                  <a href="https://wa.me/919496650320" target="_blank"
+                    ><span class="icon-whatsapp"></span
+                  ></a>
+                </li>
+                <li class="ftco-animate">
+                  <a
+                    href="https://www.facebook.com/Fahexnatural"
+                    target="_blank"
+                    ><span class="icon-facebook"></span
+                  ></a>
+                </li>
+                <li class="ftco-animate">
+                  <a href="https://www.instagram.com/fahex.co/" target="_blank"
+                    ><span class="icon-instagram"></span
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-2 col-md-6 mb-5 mb-md-5">
+            <div class="ftco-footer-widget mb-4 ml-md-4">
+              <h2 class="ftco-heading-2">Services</h2>
+              <ul class="list-unstyled">
+                <li class="py-2 d-block">Manufacture</li>
+                <li>Sales</li>
+                <li>Online Deliver</li>
+              </ul>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 mb-5 mb-md-5">
+            <div class="ftco-footer-widget mb-4">
+              <h2 class="ftco-heading-2">Have a Questions?</h2>
+              <div class="block-23 mb-3">
+                <ul>
+                  <li>
+                    <span class="icon icon-map-marker"></span>
+                    <a
+                      href="https://www.google.com/maps/place/Fahex+natural+glow/@11.0974814,76.0275357,17z"
+                      target="_blank"
+                      >Location</a
+                    >
+                  </li>
+                  <li>
+                    <a href="tel:9496650320">
+                      <span class="icon icon-phone"></span>
+                      <span class="text">9496650320</span>
+                    </a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-md-12 text-center">
+            <p>
+              Copyright &copy;
+              <script>
+                document.write(new Date().getFullYear());
+              </script>
+              All rights reserved by <a href="../index.html">Fahex</a
+              ><br />build by r7z
+            </p>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- loader -->
+    <div id="ftco-loader" class="show fullscreen">
+      <svg class="circular" width="48px" height="48px">
+        <circle
+          class="path-bg"
+          cx="24"
+          cy="24"
+          r="22"
+          fill="none"
+          stroke-width="4"
+          stroke="#eeeeee"
+        />
+        <circle
+          class="path"
+          cx="24"
+          cy="24"
+          r="22"
+          fill="none"
+          stroke-width="4"
+          stroke-miterlimit="10"
+          stroke="#F96D00"
+        />
+      </svg>
+    </div>
+
+    <script src="../assets/js/jquery.min.js"></script>
+    <script src="../assets/js/jquery-migrate-3.0.1.min.js"></script>
+    <script src="../assets/js/popper.min.js"></script>
+    <script src="../assets/js/bootstrap.min.js"></script>
+    <script src="../assets/js/jquery.easing.1.3.js"></script>
+    <script src="../assets/js/jquery.waypoints.min.js"></script>
+    <script src="../assets/js/jquery.stellar.min.js"></script>
+    <script src="../assets/js/owl.carousel.min.js"></script>
+    <script src="../assets/js/jquery.magnific-popup.min.js"></script>
+    <script src="../assets/js/aos.js"></script>
+    <script src="../assets/js/jquery.animateNumber.min.js"></script>
+    <script src="../assets/js/bootstrap-datepicker.js"></script>
+    <script src="../assets/js/jquery.timepicker.min.js"></script>
+    <script src="../assets/js/scrollax.min.js"></script>
+    <script src="../assets/js/main.js"></script>
+
+    <script>
+      const products = {
+        1: {
+          title: "Kasthuri Manjal Powder",
+          weight: "50 g",
+          price: "₹ 120",
+          desc: "Fahex Kasthuri Manjal Powder is carefully sourced from pure Wild Turmeric (Curcuma aromatica) and ground using traditional stone methods to retain its full natural potency. Unlike common turmeric, Kasthuri Manjal has a delightful fragrance and is completely safe for facial use.",
+          mainImg: "../assets/images/WhatsApp Image 2025-10-15 at 7.02.43 PM (2).jpeg",
+          thumbs: [
+          "../assets/images/WhatsApp Image 2025-10-15 at 7.02.43 PM (2).jpeg"
+          ],
+        },
+        2: {
+          title: "Kasthuri Manjal Stick",
+          weight: "25 g",
+          price: "₹ 80",
+          desc: "Fahex Kasthuri Manjal Stick is purely dried wild turmeric in natural form. Experience the ancient power of wild turmeric for radiant, glowing skin naturally.",
+          mainImg:
+            "../assets/images/WhatsApp Image 2025-10-15 at 7.02.43 PM.jpeg",
+          thumbs: [
+            "../assets/images/WhatsApp Image 2025-10-15 at 7.02.43 PM.jpeg",
+          ],
+        },
+        3: {
+          title: "Kasthuri Manjal Raw",
+          weight: "100 g",
+          price: "₹ 200",
+          desc: "Fahex Kasthuri Manjal Raw. Sourced from the best farms, this raw wild turmeric gives you the full purity and essence of nature.",
+          mainImg:
+            "../assets/images/WhatsApp Image 2025-10-15 at 7.02.44 PM.jpeg",
+          thumbs: [
+            "../assets/images/WhatsApp Image 2025-10-15 at 7.02.44 PM.jpeg",
+          ],
+        },
+        4: {
+          title: "Kasthuri Manjal Pack",
+          weight: "200 g",
+          price: "₹ 350",
+          desc: "Fahex Kasthuri Manjal Pack. Enhance your natural skin glow and reduce impurities with our premium bulk pack of wild turmeric.",
+          mainImg:
+            "../assets/images/WhatsApp Image 2025-10-15 at 7.02.42 PM.jpeg",
+          thumbs: [
+            "../assets/images/WhatsApp Image 2025-10-15 at 7.02.42 PM.jpeg",
+          ],
+        },
+        5: {
+          title: "Kasthuri Manjal Pack",
+          weight: "200 g",
+          price: "₹ 350",
+          desc: "Fahex Kasthuri Manjal Pack. Crafted for safe, natural, and effective skincare routines.",
+          mainImg:
+            "../assets/images/WhatsApp Image 2025-10-15 at 7.02.42 PM (1).jpeg",
+          thumbs: [
+            "../assets/images/WhatsApp Image 2025-10-15 at 7.02.42 PM (1).jpeg",
+          ],
+        },
+        6: {
+          title: "Kasthuri Manjal Premium",
+          weight: "150 g",
+          price: "₹ 280",
+          desc: "Fahex Kasthuri Manjal Premium. The finest handpicked wild turmeric pieces finely ground for ultra-luxurious skincare.",
+          mainImg:
+            "../assets/images/WhatsApp Image 2025-10-15 at 7.02.42 PM (2).jpeg",
+          thumbs: [
+            "../assets/images/WhatsApp Image 2025-10-15 at 7.02.42 PM (2).jpeg",
+          ],
+        },
+      };
+
+      document.addEventListener("DOMContentLoaded", function () {
+        const urlParams = new URLSearchParams(window.location.search);
+        let productId = urlParams.get("id");
+
+        if (!productId || !products[productId]) {
+          productId = 1;
+        }
+
+        const product = products[productId];
+
+        document.getElementById("productTitle").innerText = product.title;
+        document.getElementById("productWeight").innerText =
+          "Weight: " + product.weight;
+        document.getElementById("productPrice").innerText = product.price;
+        document.getElementById("productDesc").innerText = product.desc;
+
+        const mainImgEl = document.getElementById("mainImg");
+        mainImgEl.src = product.mainImg;
+        mainImgEl.alt = product.title;
+
+        const thumbContainer = document.getElementById("thumbnailContainer");
+        thumbContainer.innerHTML = "";
+
+        product.thumbs.forEach((thumbSrc, index) => {
+          const isActive = index === 0 ? "active" : "";
+          const borderStyle = index === 0 ? "border: 2px solid #f5d67b;" : "";
+
+          const colDiv = document.createElement("div");
+          colDiv.className = "col-3";
+
+          const imgEl = document.createElement("img");
+          imgEl.src = thumbSrc;
+          imgEl.className = "img-fluid rounded-2 thumb-img " + isActive;
+          imgEl.alt = "Thumb " + (index + 1);
+          imgEl.style.cssText = "cursor: pointer; " + borderStyle;
+          imgEl.onclick = function () {
+            changeImg(this);
+          };
+
+          colDiv.appendChild(imgEl);
+          thumbContainer.appendChild(colDiv);
+        });
+      });
+
+      function changeImg(el) {
+        document.getElementById("mainImg").src = el.src;
+        document.querySelectorAll(".thumb-img").forEach((img) => {
+          img.style.border = "none";
+          img.classList.remove("active");
+        });
+        el.style.border = "2px solid #f5d67b";
+        el.classList.add("active");
+      }
+    </script>
+  </body>
+</html>
