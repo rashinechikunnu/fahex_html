@@ -8999,3 +8999,31 @@ textarea.form-control {
     display: block;                    /* needed for <a> tags */
 }
 
+/* Hero Slider Responsive Styles */
+@media (max-width: 992px) {
+  .owl-carousel.home-slider,
+  .owl-carousel.home-slider .slider-item,
+  .owl-carousel.home-slider .slider-item .slider-text {
+    height: 500px !important;
+  }
+}
+
+@media (max-width: 576px) {
+  .owl-carousel.home-slider,
+  .owl-carousel.home-slider .slider-item,
+  .owl-carousel.home-slider .slider-item .slider-text {
+    height: 350px !important;
+  }
+  
+  .owl-carousel.home-slider .slider-item .slider-text h1 {
+    font-size: 22px !important;
+  }
+  
+  .owl-carousel.home-slider .slider-item .slider-text p {
+    font-size: 14px !important;
+  }
+  
+  .owl-carousel.home-slider .slider-item .slider-text .subheading {
+    font-size: 18px !important;
+  }
+}
