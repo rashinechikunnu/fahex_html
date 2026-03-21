@@ -9026,4 +9026,152 @@ textarea.form-control {
   .owl-carousel.home-slider .slider-item .slider-text .subheading {
     font-size: 18px !important;
   }
+  .services-wrap {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 576px) {
+  .services-wrap {
+    flex-direction: column;
+  }
+}
+/* MODERN E-COMMERCE PRODUCT CARD */
+.custom-card {
+  display: flex !important;
+  flex-direction: column !important;
+  height: 100% !important;
+  background-color: #000 !important; /* pure black */
+  border-radius: 10px !important;
+  overflow: hidden !important;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.4) !important;
+  transition: transform 0.3s ease, box-shadow 0.3s ease !important;
+  padding: 0 !important;
+}
+
+.custom-card:hover {
+  transform: translateY(-5px) !important;
+  box-shadow: 0 8px 25px rgba(250, 197, 100, 0.15) !important; /* Soft highlight on hover */
+}
+
+/* Image */
+.custom-card .img {
+  width: 100% !important;
+  height: 220px !important;
+  background-size: contain !important;
+  background-color: #fff !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  display: block !important;
+  border-radius: 10px 10px 0 0 !important;
+}
+
+/* Text section */
+.custom-card .text {
+  flex: 1 !important;
+  display: flex !important;
+  flex-direction: column !important;
+  padding: 15px !important;
+  text-align: center !important;
+}
+
+/* Title */
+.custom-card h3 {
+  font-size: 15px !important;
+  font-weight: 600 !important;
+  margin-bottom: 5px !important;
+  color: #fff !important;
+  line-height: 1.3 !important;
+}
+
+/* Weight */
+.custom-card .text-muted {
+  font-size: 12px !important;
+  color: #aaa !important;
+  margin-bottom: 8px !important;
+}
+
+/* Price */
+.custom-card .price {
+  margin-top: auto !important;
+  margin-bottom: 12px !important;
+}
+.custom-card .price span {
+  font-size: 16px !important;
+  font-weight: 700 !important;
+  color: #fac564 !important; /* Highlight gold color from theme */
+}
+
+/* Buttons Container */
+.custom-card .btn-container {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+  margin-top: auto !important;
+  gap: 10px !important;
+}
+
+/* Common Button Style */
+.custom-card .btn {
+  font-size: 11px !important;
+  border-radius: 5px !important;
+  text-transform: uppercase !important;
+  font-weight: 600 !important;
+  letter-spacing: 0.5px !important;
+  display: flex !important;
+  align-items: center !important;
+  justify-content: center !important;
+  transition: all 0.3s ease !important;
+  padding: 8px 2px !important;
+  line-height: 1.2 !important;
+  margin: 0 !important;
+}
+
+.custom-card .mr-1 { margin-right: 4px !important; }
+.custom-card .ml-1 { margin-left: 4px !important; }
+
+/* Outline Button */
+.custom-card .btn-outline-white {
+  background: transparent !important;
+  border: 1px solid rgba(255, 255, 255, 0.3) !important;
+  color: white !important;
+  background-color: #25D366 !important;
+}
+.custom-card .btn-outline-white:hover {
+  background: rgba(255, 255, 255, 0.1) !important;
+  border-color: #fff !important;
+}
+
+/* WhatsApp Button */
+.custom-card .btn-whatsapp {
+  background-color: #25D366 !important;
+  border: 1px solid #25D366 !important;
+  color: #fff !important;
+}
+.custom-card .btn-whatsapp:hover {
+  background-color: #20BA56 !important;
+  border-color: #20BA56 !important;
+  color: #fff !important;
+}
+.custom-card .btn-whatsapp i {
+  font-size: 14px !important;
+  margin-right: 4px !important;
+}
+
+/* Grid spacing for mobile */
+@media (max-width: 576px) {
+  .col-6 {
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+  }
+}
+
+.services-wrap {
+  display: flex;
+  flex-direction: column; /* stack vertically */
+}
+
+.services-wrap .text {
+  width: 100% !important;   /* full width */
+  max-width: 100%;
 }
